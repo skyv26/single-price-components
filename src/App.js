@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import { GlobalStyle } from "./bem/BEM.styled";
+import { Main, Container } from "./bem/BEM.styled";
+import IntroSection from "./components/IntroSection/IntroSection";
+import { LevelTwo } from "./bem/BEM.styled";
+import SubscriptionSection from "./components/SubscriptionSection/SubscriptionSection";
+import WhySection from "./components/WhySection/WhySection";
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <Fragment>
+      <GlobalStyle />
+      <Main>
+        <Container>
+          <IntroSection />
+          <LevelTwo>
+            <SubscriptionSection />
+            <WhySection />
+          </LevelTwo>
+        </Container>
+      </Main>
+      <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc" target="_blank" rel="noreferrer" >Frontend Mentor</a>.
+          Coded with ❤️ By <a href="https://www.frontendmentor.io/profile/skyv26">Aakash Verma</a>.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </footer>
+    </Fragment>
   );
-}
+};
 
 export default App;
