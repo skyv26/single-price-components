@@ -12,14 +12,13 @@ export const GlobalStyle = createGlobalStyle`
     html {
         font-size: 62.5%;
         height: 100%;
-        background-color: black;
+        background-color: hsl(204, 43%, 93%);
     }
 
     body {
         min-height: 100%;
         max-width: 375px;
         margin: auto;
-        background-color: hsl(204, 43%, 93%);
     }
 
     .attribution { 
