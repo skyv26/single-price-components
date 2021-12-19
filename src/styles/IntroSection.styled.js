@@ -26,6 +26,7 @@ export const IntroWrapper = styled(Section)`
     .Intro__LastPara {
         font-size: 1.025rem;
         line-height: 1.8;
+        color: hsl(218, 22%, 67%);
     }
 
     @media ${media.ip5} {
