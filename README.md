@@ -12,17 +12,6 @@ Users should be able to:
 - Solution URL: [Github](https://github.com/skyv26/single-price-components)
 - Live Site URL: [Netlify](https://skyprice.netlify.app/)
 
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
-
 ## Author
 
 - LinkedIn - [@devaakash](https://www.linkedin.com/in/devaakash/)
