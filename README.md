@@ -7,10 +7,6 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 - See a hover state on desktop for the Sign Up call-to-action
 
-### Screenshot
-
-![](./public/screenshot.png)
-
 ### Links
 
 - Solution URL: [Github](https://github.com/skyv26/single-price-components)
