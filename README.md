@@ -29,10 +29,6 @@ Users should be able to:
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-### What I learned
-
-Focused on Style-components and styled-object
-
 ### Continued development
 
 ReactJS
