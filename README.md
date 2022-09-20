@@ -164,16 +164,12 @@ Example commands:
 
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
+Install this **React** and it dependent libraries with:
 
 ```sh
-  cd my-project
-  gem install
+  cd single-price-components
+  yarn install or npm install
 ```
---->
 
 ### Usage
 
