@@ -175,13 +175,9 @@ Install this **React** and it dependent libraries with:
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
 ```
---->
+Please use the VSCode and run command `yarn start`
+```
 
 ### Deployment
 
