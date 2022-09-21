@@ -1,8 +1,3 @@
-### Links
-
-- Solution URL: [Github](https://github.com/skyv26/single-price-components)
-- Live Site URL: [Netlify](https://skyprice.netlify.app/)
-
 ## Author
 
 - LinkedIn - [@devaakash](https://www.linkedin.com/in/devaakash/)
