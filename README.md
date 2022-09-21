@@ -1,10 +1,3 @@
-## Author
-
-- LinkedIn - [@devaakash](https://www.linkedin.com/in/devaakash/)
-- Frontend Mentor - [@skyv26](https://www.frontendmentor.io/profile/skyv26)
-- Twitter - [@vrma_aakash](https://twitter.com/vrma_aakash)
-
-
 <a name="readme-top"></a>
 
 <!--
