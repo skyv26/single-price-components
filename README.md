@@ -37,15 +37,11 @@
 
 # 📖 Single Price Grid Component <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **Single price grid component** is a vanilla js application to learn web developement and its foundation.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -58,8 +54,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **View the optimal layout for the component depending on their device's screen size**
 - **See a hover state on desktop for the Sign Up call-to-action**
 
@@ -68,8 +62,6 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Project](https://skyprice.netlify.app/)
 
@@ -126,8 +118,6 @@ You can deploy this project using gh-pages or other platforms like vercel.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Aakash Verma**
 
 - GitHub: [@skyv26](https://github.com/skyv26)
@@ -140,8 +130,6 @@ You can deploy this project using gh-pages or other platforms like vercel.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[new_feature_1]**
 - [ ] **[new_feature_2]**
@@ -163,8 +151,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project, please support me by giving a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -172,8 +158,6 @@ If you like this project, please support me by giving a star.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank [Frontend Mentor](https://www.frontendmentor.io) 
 
