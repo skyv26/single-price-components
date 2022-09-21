@@ -131,9 +131,7 @@ You can deploy this project using gh-pages or other platforms like vercel.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Make it dynamic and interactive**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
