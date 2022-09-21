@@ -5,7 +5,7 @@
   <img src="./public/screenshot.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>README Template</b></h3>
+  <h3><b>Single Price Grid Component</b></h3>
 
 </div>
 
