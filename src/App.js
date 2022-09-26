@@ -21,8 +21,19 @@ const App = (props) => {
       </Main>
       <footer>
         <p class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc" target="_blank" rel="noreferrer" >Frontend Mentor</a>.
-          Coded with ❤️ By <a href="https://www.frontendmentor.io/profile/skyv26">Aakash Verma</a>.
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          . Coded with ❤️ By{" "}
+          <a href="https://www.frontendmentor.io/profile/skyv26">
+            Aakash Verma
+          </a>
+          .
         </p>
       </footer>
     </Fragment>
