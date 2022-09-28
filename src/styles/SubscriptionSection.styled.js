@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { Section, Wrapper } from '../bem/BEM.styled';
-import { media } from '../bem/screenWidth';
+import styled from "styled-components";
+import { Section, Wrapper } from "../bem/BEM.styled";
+import { media } from "../bem/screenWidth";
 
 export const SubscriptionWrapper = styled(Section)`
     background-color: hsl(179, 62%, 43%);
@@ -9,7 +9,6 @@ export const SubscriptionWrapper = styled(Section)`
     gap: 1.2rem;
     
     .heading {
-    
         font-size: 1.325rem;
         font-weight: 700;
         color: white;
@@ -93,8 +92,8 @@ export const SubscriptionWrapper = styled(Section)`
 
     @media ${media.mylaptop} {
         padding-top: 3.5rem;
-        padding-left 3.8rem;
-        padding-right 4rem;
+        padding-left: 3.8rem;
+        padding-right: 4rem;
         width: 50%;
         gap: 1.6rem;
 
@@ -113,8 +112,8 @@ export const SubscriptionWrapper = styled(Section)`
 
     @media ${media.laptopL} {
         padding-top: 4rem;
-        padding-left 4rem;
-        padding-right 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
         width: 50%;
         gap: 1.6rem;
 
@@ -134,137 +133,135 @@ export const SubscriptionWrapper = styled(Section)`
 `;
 
 export const SubsWrapperLevelOne = styled(Wrapper)`
-    flex-direction: column;
+  flex-direction: column;
+  gap: 0.65rem;
+
+  .tag__line {
+    font-size: 1.17rem;
+    font-weight: 400;
+    color: white;
+  }
+
+  @media ${media.ip5} {
     gap: 0.65rem;
-
     .tag__line {
-        font-size: 1.17rem;
-        font-weight: 400;
-        color: white;
+      font-size: 1.34rem;
     }
+  }
 
-    @media ${media.ip5} {
-        gap: 0.65rem;
-        .tag__line {
-            font-size: 1.34rem;
-        }
+  @media ${media.galaxy} {
+    gap: 1rem;
+    .tag__line {
+      font-size: 1.51rem;
     }
+  }
 
-    @media ${media.galaxy} {
-        gap: 1rem;
-        .tag__line {
-            font-size: 1.51rem;
-        }
+  @media ${media.ipX} {
+    gap: 0.6rem;
+    .tag__line {
+      font-size: 1.575rem;
     }
+  }
 
-    @media ${media.ipX} {
-        gap: 0.6rem;
-        .tag__line {
-            font-size: 1.575rem;
-        }
+  @media ${media.pixel} {
+    gap: 0.75rem;
+    .tag__line {
+      font-size: 1.735rem;
     }
+  }
 
-    @media ${media.pixel} {
-        gap: 0.75rem;
-        .tag__line {
-            font-size: 1.735rem;
-        }
+  @media ${media.mylaptop} {
+    gap: 0.75rem;
+    .tag__line {
+      font-size: 1.475rem;
     }
+  }
 
-    @media ${media.mylaptop} {
-        gap: 0.75rem;
-        .tag__line {
-            font-size: 1.475rem;
-        }
+  @media ${media.laptopL} {
+    gap: 0.75rem;
+    .tag__line {
+      font-size: 1.575rem;
     }
-
-    @media ${media.laptopL} {
-        gap: 0.75rem;
-        .tag__line {
-            font-size: 1.575rem;
-        }
-    }
+  }
 `;
 
 export const SubsWrapperLevelTwo = styled(Wrapper)`
-    flex-direction: row;
-    align-items: center;
-    gap: 0.65rem;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.65rem;
+  .price {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: white;
+  }
+
+  .renewal__time {
+    font-size: 1.25rem;
+    color: hsl(204, 43%, 93%);
+  }
+
+  @media ${media.ip5} {
+    gap: 1rem;
     .price {
-        font-size: 2.4rem;
-        font-weight: 700;
-        color: white;
+      font-size: 2.75rem;
     }
 
     .renewal__time {
-        font-size: 1.25rem;
-        color: hsl(204, 43%, 93%);
+      font-size: 1.35rem;
+    }
+  }
+
+  @media ${media.galaxy} {
+    gap: 1.2rem;
+    .price {
+      font-size: 3rem;
     }
 
-    @media ${media.ip5} {
-        gap: 1rem;
-        .price {
-            font-size: 2.75rem;
-        }
-    
-        .renewal__time {
-            font-size: 1.35rem;
-        }
+    .renewal__time {
+      font-size: 1.5rem;
+    }
+  }
+  @media ${media.ipX} {
+    gap: 1.2rem;
+    .price {
+      font-size: 3.25rem;
     }
 
-    @media ${media.galaxy} {
-        gap: 1.2rem;
-        .price {
-            font-size: 3rem;
-        }
-    
-        .renewal__time {
-            font-size: 1.5rem;
-        }
+    .renewal__time {
+      font-size: 1.55rem;
     }
-    @media ${media.ipX} {
-        gap: 1.2rem;
-        .price {
-            font-size: 3.25rem;
-        }
-    
-        .renewal__time {
-            font-size: 1.55rem;
-        }
+  }
+
+  @media ${media.pixel} {
+    gap: 1.2rem;
+    .price {
+      font-size: 3.6rem;
     }
 
-    @media ${media.pixel} {
-        gap: 1.2rem;
-        .price {
-            font-size: 3.6rem;
-        }
-    
-        .renewal__time {
-            font-size: 1.75rem;
-        }
+    .renewal__time {
+      font-size: 1.75rem;
+    }
+  }
+
+  @media ${media.mylaptop} {
+    gap: 1.15rem;
+    .price {
+      font-size: 3.125rem;
     }
 
-    @media ${media.mylaptop} {
-        gap: 1.15rem;
-        .price {
-            font-size: 3.125rem;
-        }
-    
-        .renewal__time {
-            font-size: 1.475rem;
-        }
+    .renewal__time {
+      font-size: 1.475rem;
+    }
+  }
+
+  @media ${media.laptopL} {
+    gap: 1.15rem;
+    .price {
+      font-size: 3.2rem;
     }
 
-    @media ${media.laptopL} {
-        gap: 1.15rem;
-        .price {
-            font-size: 3.2rem;
-        }
-    
-        .renewal__time {
-            font-size: 1.6rem;
-        }
+    .renewal__time {
+      font-size: 1.6rem;
     }
-    
+  }
 `;
-
